@@ -1,0 +1,52 @@
+{
+  "MISTRegistry": {
+    "address": "0xC0c79bd93b0990FC8D146C689332e01a5bCb00a6",
+    "constructorArgs": ["0x3E63e9c64942399e987A04f0663A5c1Cba9c148A"],
+    "libraries": {
+      "IncrementalBinaryTree": "0xe73251284989C4496985F16C718369BBc30ccF63",
+      "PoseidonT3": "0x6134C0C7D655CfF2F225CFeB0c06799B588a7E61"
+    }
+  },
+  "MISTPool": {
+    "address": "0xA9dd3C18cBFA9bc133F82Fd2272AF6737f02Fc3b",
+    "constructorArgs": [
+      "0xC0c79bd93b0990FC8D146C689332e01a5bCb00a6",
+      "0x56a76B1FB4DE43Cf9F1BdF938Ab27cB64de0F29B",
+      "0x4558B375148C65BD537DBaD74b143aBb78B15449"
+    ],
+    "libraries": {
+      "IncrementalBinaryTree": "0xe73251284989C4496985F16C718369BBc30ccF63",
+      "PoseidonT5": "0xB5B23a79f0d293b5C567a9B8FF6f678DAa7770b3"
+    }
+  },
+  "MISTUTXOVerifier": {
+    "address": "0x56a76B1FB4DE43Cf9F1BdF938Ab27cB64de0F29B",
+    "constructorArgs": [],
+    "libraries": {}
+  },
+  "MISTAccountVerifier": {
+    "address": "0x3E63e9c64942399e987A04f0663A5c1Cba9c148A",
+    "constructorArgs": [],
+    "libraries": {}
+  },
+  "MISTBalanceVerifier": {
+    "address": "0x4558B375148C65BD537DBaD74b143aBb78B15449",
+    "constructorArgs": [],
+    "libraries": {}
+  },
+  "IncrementalBinaryTree": {
+    "address": "0xe73251284989C4496985F16C718369BBc30ccF63",
+    "constructorArgs": [],
+    "libraries": { "PoseidonT3": "0x6134C0C7D655CfF2F225CFeB0c06799B588a7E61" }
+  },
+  "PoseidonT3": {
+    "address": "0x6134C0C7D655CfF2F225CFeB0c06799B588a7E61",
+    "constructorArgs": [],
+    "libraries": {}
+  },
+  "PoseidonT5": {
+    "address": "0xB5B23a79f0d293b5C567a9B8FF6f678DAa7770b3",
+    "constructorArgs": [],
+    "libraries": {}
+  }
+}

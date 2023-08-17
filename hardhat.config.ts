@@ -29,6 +29,12 @@ const config: HardhatUserConfig = {
       chainId: 11155111,
       allowUnlimitedContractSize: true,
     },
+    lineaGoerli: {
+      accounts: [process.env.PRIVATE_KEY || ""],
+      url: `https://rpc.goerli.linea.build/`,
+      chainId: 59140,
+      allowUnlimitedContractSize: true,
+    },
   },
 };
 
